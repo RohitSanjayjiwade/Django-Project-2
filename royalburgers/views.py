@@ -9,6 +9,7 @@ def index(request):
     product = Product.objects.all()
     print(product)
     # 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
+    # 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
     return render(request, "products/index.html", {"product_list": product, "categories_list": categories})
 
 
